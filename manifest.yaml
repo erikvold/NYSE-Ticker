@@ -1,0 +1,17 @@
+info:
+  title: 'NYSE Ticker'
+  description: 'Look up the latest prices for stocks on the NYSE.'
+  x-21-quick-buy: '21 buy http://10.244.120.4:10115/price?symbol=DPZ'
+  x-21-category: markets
+  x-21-app-image: "https://cdn.filepicker.io/api/file/bDNgOE9pQnqvCi17QmzG"
+  x-21-total-price:
+    min: 720
+    max: 720
+  contact:
+    name: Will Binns
+    email: binns@21.co
+host: 10.244.120.4:10115
+schemes:
+  - http
+basePath: /
+x-21-manifest-path: /manifest
