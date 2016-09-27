@@ -4,7 +4,7 @@
 #  / /|  /   / /___/ / /___     / / / / /__/ ,< /  __/ /    
 # /_/ |_/   /_//____/_____/    /_/ /_/\___/_/|_|\___/_/     
 
-# Author: Will Binns (telegram.me/wbinns)
+# Author: Will Binns (Threema ID: UFKZ739A | https://threema.ch)
 # Description: Look up the latest prices for stocks on the NYSE.
 # GitHub Repository: NYSE Ticker (github.com/wbinns/NYSE-Ticker)
 # License: Unlicense (unlicense.org)
