@@ -4,9 +4,8 @@
 #  / /|  /   / /___/ / /___     / / / / /__/ ,< /  __/ /    
 # /_/ |_/   /_//____/_____/    /_/ /_/\___/_/|_|\___/_/     
 
-# Author: Will Binns (Threema ID: UFKZ739A | https://threema.ch)
 # Description: Look up the latest prices for stocks on the NYSE.
-# GitHub Repository: NYSE Ticker (github.com/wbinns/NYSE-Ticker)
+# GitHub Repository: NYSE Ticker (github.com/cryptopelago/NYSE-Ticker)
 # License: Unlicense (unlicense.org)
 
 # Load libraries
@@ -43,4 +42,4 @@ def docs():
 
 # Init Host
 if __name__=='__main__':
-    app.run(host='::', port='10115')
+    app.run(host='::', port='10121')

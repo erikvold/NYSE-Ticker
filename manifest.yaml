@@ -1,17 +1,12 @@
-info:
-  title: 'NYSE Ticker'
-  description: 'Look up the latest prices for stocks on the NYSE.'
-  x-21-quick-buy: '21 buy http://[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10115/price?symbol=DPZ'
-  x-21-category: markets
-  x-21-app-image: "https://cdn.filepicker.io/api/file/bDNgOE9pQnqvCi17QmzG"
-  x-21-total-price:
-    min: 720
-    max: 720
-  contact:
-    name: Will Binns
-    email: binns@21.co
-host: '[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10115'
-schemes:
-  - http
 basePath: /
+host: '[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10121'
+info:
+  contact: {email: info@cryptopelago.com, name: Cryptopelago}
+  description: Look up the latest prices for stocks on the NYSE.
+  title: NYSE Ticker
+  x-21-app-image: https://cdn.filepicker.io/api/file/bDNgOE9pQnqvCi17QmzG
+  x-21-category: markets
+  x-21-quick-buy: 21 buy http://[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10121/price?symbol=DPZ
+  x-21-total-price: {max: 720, min: 720}
+schemes: [http]
 x-21-manifest-path: /manifest
